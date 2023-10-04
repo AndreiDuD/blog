@@ -1,0 +1,1 @@
+ensure next.config.js removeConsole: true before deploying

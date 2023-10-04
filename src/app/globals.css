@@ -92,6 +92,7 @@ code {
       #61DAFB,
       #232323
     ); 
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -107,6 +108,7 @@ code {
       #000000,
       #FFFFFF
     ); 
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -122,6 +124,7 @@ code {
       #646CFF,
       #FFFFFF
     ); 
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -137,6 +140,7 @@ code {
       #38B2AC,
       #FFFFFF
     ); 
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -152,6 +156,7 @@ code {
       #306998,
       #F7DF1E
     ); 
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -167,6 +172,7 @@ code {
       #F7DF1E,
       #FFFFFF
     ); 
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -174,6 +180,7 @@ code {
     background: #0261FF; /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #0261FF, #FFFFFF);
     background: linear-gradient(to top, #0261FF, #FFFFFF);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

@@ -3,22 +3,22 @@ import profileIntro from "@/public/profile.jpeg";
 
 const Introduction = () => {
   return (
-    <div className="flex justify-center flex-col items-center">
+    <section id="intro" className="flex flex-col items-center justify-center">
       <div className="h-36" />
-      <div className="w-4 h-4 bg-accent dark:bg-accentDark rounded-full"></div>
-      <h2 className="mt-5 text-dark dark:text-light font-medium text-lg">
+      <div className="h-4 w-4 rounded-full bg-accent dark:bg-accentDark"></div>
+      <h2 className="mt-5 text-lg font-medium text-dark dark:text-light">
         Hi, my name is
       </h2>
-      <h2 className="text-7xl font-bold text-dark dark:text-light tracking-widest mt-5 text-center">
+      <h2 className="mt-5 text-center text-7xl font-bold tracking-widest text-dark dark:text-light">
         Andrei <br />
         Duduman
       </h2>
       <Image
         src={profileIntro}
         alt="profile"
-        className="w-48 h-48 bg-accent dark:bg-accentDark p-2 rounded-full object-cover mt-10"
+        className="mt-10 h-48 w-48 rounded-full bg-accent object-cover p-2 dark:bg-accentDark"
       />
-    </div>
+    </section>
   );
 };
 

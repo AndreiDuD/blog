@@ -1,7 +1,6 @@
 import About from "../components/Home/About";
 import Introduction from "../components/Home/Introduction";
 import ProfilePic from "../components/Home/ProfilePic";
-import ProgressBar from "../components/Home/ProgressBar";
 import Projects from "../components/Home/Projects";
 import Skills from "../components/Home/Skills";
 
@@ -15,7 +14,6 @@ export default function Home() {
         <Projects />
       </div>
       <div className="hidden md:block">
-        <ProgressBar />
         <ProfilePic />
       </div>
     </div>

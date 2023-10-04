@@ -20,9 +20,9 @@ const ProgressBar = () => {
   };
 
   return (
-    <div className="w-4 bg-gray/90 fixed -ml-1 h-full mb-4">
+    <div className="fixed -ml-1 mb-4 h-full w-4 bg-gray/90">
       <div
-        className="bg-accent dark:bg-accentDark transition-all ease-out duration-1000"
+        className="bg-accent transition-all duration-1000 ease-out dark:bg-accentDark"
         style={{ height: `${scrollTop}%` }}
       ></div>
     </div>
