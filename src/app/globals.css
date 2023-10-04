@@ -80,4 +80,100 @@ code {
     color: #747474;
   }
 
-
+  .react-gradient {
+    background: #61DAFB; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #61DAFB,
+      #232323
+    ); 
+    background: linear-gradient(
+      to top,
+      #61DAFB,
+      #232323
+    ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .nextjs-gradient {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #000000,
+      #FFFFFF
+    ); 
+    background: linear-gradient(
+      to top,
+      #000000,
+      #FFFFFF
+    ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .vitejs-gradient {
+    background: #646CFF; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #646CFF,
+      #FFFFFF
+    ); 
+    background: linear-gradient(
+      to top,
+      #646CFF,
+      #FFFFFF
+    ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .tailwindcss-gradient {
+    background: #38B2AC; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #38B2AC,
+      #FFFFFF
+    ); 
+    background: linear-gradient(
+      to top,
+      #38B2AC,
+      #FFFFFF
+    ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .python-gradient {
+    background: #306998; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #306998,
+      #F7DF1E
+    ); 
+    background: linear-gradient(
+      to top,
+      #306998,
+      #F7DF1E
+    ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .javascript-gradient {
+    background: #F7DF1E; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to top,
+      #F7DF1E,
+      #FFFFFF
+    ); 
+    background: linear-gradient(
+      to top,
+      #F7DF1E,
+      #FFFFFF
+    ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .supabase-gradient {
+    background: #0261FF; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0261FF, #FFFFFF);
+    background: linear-gradient(to top, #0261FF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

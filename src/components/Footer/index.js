@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="text-center">
           Made with &hearts; by{" "}
           <a
-            href="https://portfolio-andrei-duduman.vercel.app/"
+            href="https://andrei-duduman.vercel.app/"
             className="underline"
             target="_blank"
           >
